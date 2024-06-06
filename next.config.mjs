@@ -5,7 +5,6 @@ const assetPrefix = isProduction ? process.env.ASSET_PREFIX : '';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   assetPrefix: assetPrefix,
-  env: { ASSET_PREFIX: assetPrefix },
   images: { unoptimized: true },
   output: 'export',
   reactStrictMode: true,
